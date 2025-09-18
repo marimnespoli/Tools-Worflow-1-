@@ -68,3 +68,29 @@ img {
   text-align: left;            /* Keep text aligned left */
 }
 
+/* Flex container */
+.content {
+  display: flex;              /* Put items side by side */
+  align-items: center;        /* Align vertically in the middle */
+  justify-content: center;    /* Center everything horizontally */
+  gap: 30px;                  /* Space between image and about-me */
+  margin: 40px auto;
+  max-width: 900px;           /* Limit overall width */
+}
+
+/* Image inside flex */
+.content img {
+  max-width: 300px;           /* Adjust image size */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* About Me block */
+.about-me {
+  flex: 1;                    /* Take remaining space */
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
