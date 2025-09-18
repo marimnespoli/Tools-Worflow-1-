@@ -1,0 +1,33 @@
+/* Style for the header */
+header {
+  background-color: lightblue;  /* Background color */
+  color: darkblue;              /* Text color */
+  text-align: center;           /* Center the text */
+  padding: 20px;                /* Space inside the header */
+  font-size: 24px;              /* Make the text bigger */
+  font-weight: bold;            /* Bold text */
+  border-bottom: 2px solid navy; /* Line under the header */
+}
+
+h1 {
+  margin: 0;                    /* Remove default margin */
+    font-family: Arial, sans-serif; /* Font style */
+    text-transform: uppercase;    /* Uppercase letters */
+    letter-spacing: 2px;         /* Space between letters */
+    text-shadow: 1px 1px 2px gray; /* Shadow effect */
+    color: #7a1471;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+p {
+    font-family: Arial, sans-serif; /* Font style */
+    font-size: 16px;              /* Font size */
+    line-height: 1.5;             /* Space between lines */
+    color: #333;                  /* Text color */
+    margin: 20px;                 /* Space around paragraphs */
+    text-align: justify;          /* Justify text */
+    display: flex;
+    justify-content: center;
+}
