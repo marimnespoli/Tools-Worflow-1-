@@ -1,10 +1,10 @@
 /* Style for the header */
 header {
-  background-color: lightblue;  /* Background color */
+  background-color: rgb(199, 202, 255);  /* Background color */
   color: darkblue;              /* Text color */
   text-align: center;           /* Center the text */
   padding: 20px;                /* Space inside the header */
-  font-size: 24px;              /* Make the text bigger */
+  font-size: 32px;              /* Make the text bigger */
   font-weight: bold;            /* Bold text */
   border-bottom: 2px solid navy; /* Line under the header */
 }
