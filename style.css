@@ -36,7 +36,7 @@ img {
     max-width: 100%;              /* Responsive image */
     height: auto;                 /* Maintain aspect ratio */
     border-radius: 8px;           /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Shadow effect */
+    box-shadow: 0 8px 8px rgba(104, 0, 184, 0.1); /* Shadow effect */
     margin: 20px 0;               /* Space around images */
     display: block;
     margin-left: auto;
@@ -81,8 +81,8 @@ img {
 /* Image inside flex */
 .content img {
   max-width: 300px;           /* Adjust image size */
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 20px;
+  box-shadow: 0 8px 8px rgba(133, 0, 167, 0.1);
 }
 
 /* About Me block */
